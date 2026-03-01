@@ -10,10 +10,10 @@ def build_prefix(arr):
     return prefix
 x= build_prefix(my_list) #[2, 7, 94, 179]
 
-def range_sum(arr1,L,R):
+def range_sum(prefix_list,L,R):
     if L==0:
-        return arr1[R]
-    return arr1[R]-arr1[L-1]
+        return prefix_list[R]
+    return prefix_list[R]-prefix_list[L-1]
 
 print(range_sum(x,0,2))
 print(range_sum(x,1,4))

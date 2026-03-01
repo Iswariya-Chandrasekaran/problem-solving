@@ -2,7 +2,7 @@
 def is_palindrome_A(s):
     return s == s[::-1] #tc=o(n)internal looping ,sc=o(n) creates new string for comparing
 
-# Function B
+# Function B - Two Pointer Approach
 def is_palindrome_B(s):
     left = 0
     right = len(s) - 1  #c = o(n) for finding length

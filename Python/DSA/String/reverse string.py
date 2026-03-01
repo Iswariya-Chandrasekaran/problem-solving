@@ -1,3 +1,5 @@
+# *"Reverse in place"*
+
 s="Iswariya"
 # ["I","s","w","a","r","i","y","a"]
 mylist=list(s) #tc=o(n) for creating list, sc=o(n) for creating new list
