@@ -5,15 +5,15 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
-        left=0
-        right=0
-        while left < len(s) and right < len(t):
-            if s[left]==t[right]:
-                left+=1
-                right+=1
+        sleft=0
+        tleft=0
+        while sleft < len(s) and tleft < len(t):
+            if s[sleft]==t[tleft]:
+                sleft+=1
+                tleft+=1
             else:
-                right+=1
-        if left==len(s):
+                tleft+=1
+        if sleft==len(s):
             return True
         return False
 
