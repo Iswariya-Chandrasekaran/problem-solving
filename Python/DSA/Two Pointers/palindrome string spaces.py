@@ -1,6 +1,4 @@
 """
-**Q8.** This is a TCS NQT style question:
-```
 Given a string, check if it is a palindrome 
 IGNORING spaces and special characters.
 
