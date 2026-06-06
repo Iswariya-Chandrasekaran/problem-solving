@@ -1,3 +1,8 @@
+"""
+Input: chars = ["a","a","b","b","c","c","c"]
+Output: 6
+Explanation: The groups are "aa", "bb", and "ccc". This compresses to "a2b2c3".
+"""
 class Solution:
     def compress(self, chars: list[str]) -> int:       
         n=len(chars)
