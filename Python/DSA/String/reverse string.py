@@ -22,3 +22,23 @@ rev_string="".join(rev_list)
 print(rev_string)
 
 ''' tc = o(n),sc = o(n)'''
+
+# -------------------Without creating a list
+s="back"
+rev=""
+
+for ch in s:
+    rev= ch + rev
+     # 1.b 2.a+b =ab, 3. c+ab=cab, 4. k+cab=kcab 
+
+print(rev)
+
+'''tc=O(n²) Each string concatination creates new str, sc=O(n)'''
+
+# ------------ using reversed
+s="backend"
+print(reversed(s))
+rev="".join(reversed(s))
+print(rev)
+
+''' tc = o(n),sc = o(n)'''
