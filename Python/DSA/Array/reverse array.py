@@ -3,6 +3,7 @@ arr=[3,5,78,90,23,23]
 reverse_arr=arr[::-1]
 print(reverse_arr)
 
+print(arr.reverse())
 
 """"
 How Slicing Works in Python

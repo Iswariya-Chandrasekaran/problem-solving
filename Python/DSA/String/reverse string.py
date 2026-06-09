@@ -1,44 +1,39 @@
-# *"Reverse in place"*
+#way 1: reversed
+s=input()  # s="Iswariya"
+rev=reversed(s) # obj>>122993
+print("".join(rev))
+''' tc = O(n) because join() traverses all characters once..
+sc = O(n) because join() creates a new reversed string of size n. '''
+# ------------------------------------------
 
-s="Iswariya"
-# ["I","s","w","a","r","i","y","a"]
-mylist=list(s) #tc=o(n) for creating list, sc=o(n) for creating new list
-def reverse_array(arr):
-    left=0
-    '''#o(n) for finding length'''
-    right=len(arr)-1 # right=7  
-    '''tc=o(n)'''
-    while left<right: # 0<7, 1<6 
-        # ["a","s","w","a","r","i","y","I"]
-        # ["a","y","w","a","r","i","s","I"]
-        arr[left],arr[right] = arr[right],arr[left] 
-        left+=1 #l=1
-        right-=1 #r=6
-    return arr
+# way 2 : slicing
+reve=s[::-1]
+print("".join(reve))
+'''tc = O(n) - slicing traverses all characters to create the reversed string.
+ sc = O(n) - a new reversed string of size n is created. '''
+# ------------------------------------------
 
-rev_list=reverse_array(mylist)
-'''tc=o(n) for join'''
-rev_string="".join(rev_list)
-print(rev_string)
-
-''' tc = o(n),sc = o(n)'''
-
-# -------------------Without creating a list
-s="back"
-rev=""
-
+# way 3 
+reverse=""
 for ch in s:
-    rev= ch + rev
-     # 1.b 2.a+b =ab, 3. c+ab=cab, 4. k+cab=kcab 
+    reverse = ch+reverse
+    # 1.b 2.a+b =ab, 3. c+ab=cab, 4. k+cab=kcab 
+print(reverse)
+'''tc = O(n²) - each string concatenation creates a new string and copies existing characters.
+sc = O(n) - the final reversed string stores n characters.
+'''
+# ------------------------------------------
 
-print(rev)
-
-'''tc=O(n²) Each string concatination creates new str, sc=O(n)'''
-
-# ------------ using reversed
-s="backend"
-print(reversed(s))
-rev="".join(reversed(s))
-print(rev)
-
-''' tc = o(n),sc = o(n)'''
+# way 4: 2 pointer
+def str_rev(array):
+    left=0
+    right=len(s)-1
+    while left<right:
+        array[left],array[right]=array[right],array[left]
+        left+=1
+        right-=1
+    return "".join(array)
+print(str_rev(list(s)))
+'''tc = O(n) - two-pointer swapping and join() each traverse the string once.
+sc = O(n) - list(s) and the final joined string require extra memory.
+'''  
