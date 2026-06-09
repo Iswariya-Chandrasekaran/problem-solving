@@ -10,7 +10,7 @@ sc = O(n) because join() creates a new reversed string of size n. '''
 reve=s[::-1]
 print("".join(reve))
 '''tc = O(n) - slicing traverses all characters to create the reversed string.
- sc = O(n) - a new reversed string of size n is created. '''
+ sc = O(n) - a new reversed string (reve) of size n is created. '''
 # ------------------------------------------
 
 # way 3 

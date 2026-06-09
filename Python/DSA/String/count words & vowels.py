@@ -1,11 +1,11 @@
-s = "Hello World Python  sorry"
+s = "Hello, World Python  sorry"
 y=s.split()
 print(len(y))
 
 
 
 '''tc= o(1) no operation, sc=o(n) new set'''
-vowel=set("aeiou")
+vowel="aeiou"  # in old code used set("aeiou")
 count=0
 '''tc=o(n) for loop, sc=o(1)'''
 for ch in s.lower(): 
