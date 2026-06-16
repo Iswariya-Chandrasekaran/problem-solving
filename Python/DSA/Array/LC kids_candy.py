@@ -5,7 +5,7 @@ class extraCandy:
 
     Example:
     candies = [2, 3, 5, 1, 3]
-    extra = 3
+    extra = 3 max of arr is so 2+3=5 True, 3+3=6 True
     Output = [True, True, True, False, True]
     """
     def sum_count(self, candies:list[int], extra:int)-> list[bool]:

@@ -1,6 +1,7 @@
 #--------------> Finding the minimum element in the array
 
 arr = [8, 3, 11, 1, 7]
+print("res:",min(arr))
 min=arr[0]
 for i in range(len(arr)):
     if min > arr[i]:
@@ -8,9 +9,9 @@ for i in range(len(arr)):
 print(min)
 # Expected output: 1
 
-#---------->Fining the unique elements in the array
+#---------->Finding the unique elements in the array
 arr = [1, 2, 2, 3, 4, 4, 5]
-unique=set(arr)
+unique=set(arr) # {1,2,3,4,5}
 print(list(unique))
 # Expected output: [1, 2, 3, 4, 5]
 

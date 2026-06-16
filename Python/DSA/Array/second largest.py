@@ -15,3 +15,9 @@ def second_largest(arr):
             second=arr[i]
     return second
 print(second_largest(arr))
+
+arr=[13,9,60,60,54,9,10]
+unique=list(set(arr))  #[9, 10, 13, 54, 60]
+unique.sort(reverse=True) # [60,54,14,]
+print(unique[1])
+
