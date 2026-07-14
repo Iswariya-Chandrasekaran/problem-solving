@@ -15,5 +15,3 @@ for key,value in counts.items():
         print(key)
 
 # tc= o(n) sc = o(n)
-
-
