@@ -1,6 +1,5 @@
-'''
-Q1 — Easy
-You are given a list of integers. Return the only element that appears an odd number of times.
+'''july 4 — Easy
+1. You are given a list of integers. Return the only element that appears an odd number of times.
  It is guaranteed that exactly one such element exists.
 Input:  [1, 2, 3, 2, 3, 1, 3]
 Output: 3

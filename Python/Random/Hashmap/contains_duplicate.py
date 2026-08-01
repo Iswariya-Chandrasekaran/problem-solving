@@ -1,5 +1,7 @@
 '''
-You are given a list of integers. Return True if any value appears at least twice, else return False.
+july 3
+1. You are given a list of integers. Return True if any value appears at least twice, 
+else return False.
 Input:  [1, 2, 3, 1]
 Output: True
 '''

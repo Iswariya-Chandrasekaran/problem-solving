@@ -1,6 +1,6 @@
 '''
-Q3 — Medium
-You are given a list of integers. Find the length of the longest subarray where all 
+july 4 — Medium
+3. You are given a list of integers. Find the length of the longest subarray where all 
 elements are unique (no duplicates).
 Input:  [1, 2, 3, 1, 2, 3, 4]
 Output: 4   # subarray [1, 2, 3, 4] or [3, 1, 2, 3] -- wait:

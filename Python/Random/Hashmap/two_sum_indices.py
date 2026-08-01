@@ -1,6 +1,5 @@
-'''
-Q2 — Easy-Medium
-You are given a list of integers nums and an integer target. Return the indices 
+'''july 4 — Easy-Medium
+2. You are given a list of integers nums and an integer target. Return the indices 
 of the two numbers that add up to the target. Assume exactly one solution exists.
 Input:  nums = [2, 7, 11, 15], target = 9
 Output: [0, 1]   # nums[0] + nums[1] = 2 + 7 = 9

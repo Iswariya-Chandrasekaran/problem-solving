@@ -1,7 +1,7 @@
 '''
-Q3 — Medium
+june 28— Medium
 
-Given a string, find the first non-repeating character and return it. If none, return "_".
+3. Given a string, find the first non-repeating character and return it. If none, return "_".
 Input: "aabbcde"
 Output: "c"
 '''

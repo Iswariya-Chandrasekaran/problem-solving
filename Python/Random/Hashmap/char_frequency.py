@@ -1,6 +1,7 @@
 '''
-Q1 — Easy
-You are given a string. Return a dictionary containing the frequency of each character in the string. Ignore spaces.
+July 2 — Easy
+1. You are given a string. Return a dictionary containing the frequency of each character
+ in the string. Ignore spaces.
 Input:  "hello world"
 Output: {'h': 1, 'e': 1, 'l': 3, 'o': 2, 'w': 1, 'r': 1, 'd': 1}
 '''

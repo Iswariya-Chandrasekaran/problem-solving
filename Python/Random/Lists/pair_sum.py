@@ -1,6 +1,7 @@
 '''
-Q3 — Medium
-Given a list of numbers, find all pairs that sum up to a given target. Return list of pairs (avoid duplicate pairs).
+june 30 — Medium
+3. Given a list of numbers, find all pairs that sum up to a given target.
+ Return list of pairs (avoid duplicate pairs).
 Input: nums = [2, 7, 11, 15, 1, 6], target = 9
 Output: [(2, 7), (1, 8)]  -- wait, fix example below 
 ''' 

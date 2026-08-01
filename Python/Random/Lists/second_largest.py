@@ -1,6 +1,7 @@
 '''
-Q1 — Easy
-Given a list of numbers, find the second largest number in the list (without using sort() or sorted()).
+june 30 — Easy
+1.Given a list of numbers, find the second largest number in the list 
+(without using sort() or sorted()).
 Input: [10, 5, 8, 20, 3]
 Output: 10
 '''

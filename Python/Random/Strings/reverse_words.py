@@ -1,6 +1,6 @@
 '''
-Q2 — Easy-Medium
-Given a string, reverse only the words, not the characters.
+june 28 — Easy-Medium
+2. Given a string, reverse only the words, not the characters.
 Input: "hello world"
 Output: "world hello"
 '''

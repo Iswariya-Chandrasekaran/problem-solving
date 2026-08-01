@@ -1,7 +1,7 @@
 '''
-Q1 — Easy
-You are given a sorted list of integers. Remove the duplicates in-place and return the length
- of the list with unique elements only. Do not use a set.
+july 5 — Easy
+1.You are given a sorted list of integers. Remove the duplicates in-place and 
+return the length of the list with unique elements only. Do not use a set.
 Input:  [1, 1, 2, 3, 3, 4]
 Output: 4   # unique elements are [1, 2, 3, 4]
 Input:  [1, 1, 1, 1]
@@ -18,6 +18,5 @@ while slow < len(arr) and fast < len(arr):
     fast+=1
 print(count)
 
-
-
+# tc= o(n) sc=o(1)
 

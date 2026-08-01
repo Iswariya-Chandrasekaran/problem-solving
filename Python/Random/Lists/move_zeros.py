@@ -1,6 +1,6 @@
 '''
-Q2 — Easy-Medium
-Given a list of numbers, move all zeros to the end while keeping the relative order
+june 30 — Easy-Medium
+2. Given a list of numbers, move all zeros to the end while keeping the relative order
  of non-zero elements. Do it in-place if possible.
 Input: [0, 1, 0, 3, 12]
 Output: [1, 3, 12, 0, 0]

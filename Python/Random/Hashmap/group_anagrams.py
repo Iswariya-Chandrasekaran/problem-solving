@@ -1,6 +1,6 @@
 '''
-Q2 — Easy-Medium
-You are given a list of strings. Group the words that are anagrams of each other together. 
+july 3 — Easy-Medium
+2. You are given a list of strings. Group the words that are anagrams of each other together. 
 Return a list of groups.
 Input:  ["eat", "tea", "tan", "ate", "nat", "bat"]
 Output: [["eat", "tea", "ate"], ["tan", "nat"], ["bat"]]

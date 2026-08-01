@@ -1,6 +1,6 @@
 '''
-Q3 — Medium
-Given a string with only brackets ()[]{}, return True if it is valid (every open bracket 
+june 29 — Medium
+3. Given a string with only brackets ()[]{}, return True if it is valid (every open bracket 
 has a matching closing bracket in correct order), else False.
 Input: "()[]{}"
 Output: True

@@ -1,6 +1,6 @@
 '''
-Q1 — Easy
-Given a string, check if it is a palindrome. Return True or False.
+june 29— Easy
+1. Given a string, check if it is a palindrome. Return True or False.
 Input: "racecar"
 Output: True
 

@@ -1,6 +1,6 @@
 '''
-Q3 — Medium
-You are given two strings. Check if they are anagrams of each other. Two strings 
+july 2 - Medium
+3. You are given two strings. Check if they are anagrams of each other. Two strings 
 are anagrams if they contain the same characters with the same frequency 
 (ignore spaces, case insensitive).
 Input:  "listen", "silent"

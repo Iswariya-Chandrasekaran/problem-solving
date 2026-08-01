@@ -1,6 +1,6 @@
 '''
-Q2 — Easy-Medium
-You are given a sorted list of integers and a target. Return True if any two numbers
+juy 5 — Easy-Medium
+2. You are given a sorted list of integers and a target. Return True if any two numbers
  in the list add up to the target, else False. Do not use a HashMap — use two pointers.
 Input:  nums = [1, 2, 3, 4, 6], target = 6
 Output: True   # 2 + 4 = 6
@@ -21,3 +21,5 @@ def pointertarget(arr,target):
             return True
     return False
 print(pointertarget(arr,target))
+
+# tc= o(n) sc=o(1)

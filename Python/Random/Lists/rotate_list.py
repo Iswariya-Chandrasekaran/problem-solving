@@ -1,6 +1,6 @@
 '''
-Q1 — Rotate List
-Given a list of integers and a number k, rotate the list to the right by k steps.
+july 1
+1. Given a list of integers and a number k, rotate the list to the right by k steps.
  This means the last k elements should move to the front in the same order.
 Input:  nums = [1, 2, 3, 4, 5], k = 2
 Output: [4, 5, 1, 2, 3]

@@ -1,7 +1,7 @@
 '''
-Q1 — Easy
+june 28 — Easy
 
-Given a string, return the count of vowels in it.
+1.Given a string, return the count of vowels in it.
 Input: "hello world"
 Output: 3
 '''
